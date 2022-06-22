@@ -1,7 +1,7 @@
 # flight-api
 Solution to Zuri Flight API task in Node js
 
-API response format
+## API response format
 - Error
 ```json
   {
@@ -23,7 +23,7 @@ API response format
   }
 ```
 
-API endpoints
+## API endpoints
 - Add Flight
 
 **/addflight** (POST)
@@ -44,7 +44,7 @@ API endpoints
 
 **/deleteflight** (DELETE).
 
-### Parameters
+## API Call Parameters
 - Add flight
 
 title(string, required), price(integer/string, required), date(date, required), time(date, required)
